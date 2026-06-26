@@ -1,0 +1,12 @@
+[
+    {
+        "cell_index": 3,
+        "error": "unexpected indent (<unknown>, line 6)",
+        "code": "# G\u1ee1 torchcodec b\u1ecb l\u1ed7i c\u1ee7a Colab tr\u01b0\u1edbc\n# !pip uninstall -y torchcodec\n\n# Install the tested stack (pinned to requirements.txt). ~3-5 min on Colab.\n# !pip install -q \\\n  \"unsloth>=2025.10,<2026.5\" \"trl>=0.12,<0.20\" \"peft>=0.13,<1.0\" \\\n  \"bitsandbytes>=0.44,<1.0\" \"datasets>=3.1,<4.0\" \"accelerate>=1.1,<2.0\" \\\n  \"llama-cpp-python>=0.3,<1.0\" \"lm-eval[ifeval,math]>=0.4.5,<1.0\" \\\n  \"matplotlib>=3.9,<4.0\" \"pandas>=2.2,<3.0\" \"pyarrow>=17,<22\" \\\n  \"openai>=1.55,<2.0\" \"anthropic>=0.40,<1.0\""
+    },
+    {
+        "cell_index": 19,
+        "error": "unexpected indent (<unknown>, line 1)",
+        "code": " ds_formatted = ds.map(format_alpaca_to_chat, remove_columns=ds.column_names)"
+    }
+]
